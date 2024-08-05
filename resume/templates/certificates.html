@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content1 %} 
+
+<div class="row my-4">
+    <!-- Certificate 1 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{% static 'images/python.png' %}" class="card-img-top" alt="Python Certificate">
+            <div class="card-body">
+                <h5 class="card-title">Python Certificate</h5>
+                <p class="card-text">Certificate awarded for completing a Python for Data Science course.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{% static 'images/accenture.png' %}" class="card-img-top" alt="Accenture Developer Job Simulation">
+            <div class="card-body">
+                <h5 class="card-title">Accenture Developer Job Simulation</h5>
+                <p class="card-text">Certificate for completing the Accenture Developer Job Simulation.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate 3 -->
+     <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="{% static 'images/gold.png' %}" class="card-img-top" alt="Accenture Developer Job Simulation">
+            <div class="card-body">
+                <h5 class="card-title">Goldmansachs Job Simulation</h5>
+                <p class="card-text">Certificate for completing the Goldmansachs Job Simulation.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+     <div class="card">
+         <img src="{% static 'images/aws.png' %}" class="card-img-top" alt="Accenture Developer Job Simulation">
+         <div class="card-body">
+             <h5 class="card-title">Introduction to Serverless Development</h5>
+             <p class="card-text">Certificate for completing the  Serverless Development course.</p>
+         </div>
+     </div>
+   </div>
+
+   <div class="col-md-4 mb-4">
+     <div class="card">
+         <img src="{% static 'images/google.png' %}" class="card-img-top" alt="Accenture Developer Job Simulation">
+         <div class="card-body">
+             <h5 class="card-title">Google Analytics for Beginners</h5>
+             <p class="card-text">Certificate for completing the Google Analytics for Beginners course.</p>
+         </div>
+     </div>
+   </div>
+</div>
+
+{% endblock content1 %}

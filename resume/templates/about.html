@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content1 %} 
+<div class="row my-5">
+ <div class="col-4 d-flex justify-content-center align-items-center">
+   <img src="{% static 'images/Image11.jpg' %}" alt="image" class="about_image">
+ </div>
+
+ <div class="col-7 text-left text-light">
+   <h2> Hello! </h2>
+
+   <p class="fs-5">
+      Welcome to my portfolio! I am a passionate and skilled professional with a diverse range of expertise in software development and data analysis.
+      I am skilled in Python, JavaScript, and SQL, with experience in Django and Angular for web development. I excel in HTML, CSS, and JavaScript for responsive design and use NumPy, Pandas, and Matplotlib for data analysis. Proficient in Excel and PowerBI for insights, and knowledgeable in SQL, MySQL, and basic machine learning concepts. 
+   </p>
+
+   <p class="fs-5">
+      I am dedicated to leveraging my skills to solve complex problems and drive innovation. Feel free to explore my projects and get in touch if you’d like to discuss potential collaborations or opportunities.
+   </p>
+
+ </div>
+</div>
+
+<div class="row my-2">
+     <h2 class="text-center" style="color:#4fffb0"> My Tech Stack </h2>
+
+     <div class="d-flex justify-content-around align-items-center">
+         <img src="{% static 'images/python.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/django.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/angular.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/sql.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/mysql.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/html.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+         <img src="{% static 'images/css.jpeg' %}" alt="html Logo" width="40" height="40" class="img-fluid">
+
+         <img src="{% static 'images/javascript.jpeg' %}" alt="html Logo" width="50" height="50" class="img-fluid">
+
+
+     </div>
+</div>
+
+{% endblock content1 %}
